@@ -190,4 +190,4 @@ if(score > 14) {
 };
 
 console.log(chalk.green.bold('\nThanks for playing. Share a screenshot and challenge your friends and see if they can beat your score. All the best & keep your calm!'))
-;Ca
+;
