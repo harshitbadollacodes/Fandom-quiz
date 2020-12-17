@@ -171,11 +171,13 @@ if (score >= 5) {
 // Level 3 if condition: Score >= 10
 if(score >= 10) {
   console.log(chalk.green.bold('\nCongratulations!! You qualify for level 3. Score 5 on 5 and you will be the champion.'));
-};
 
   questionsArrLevelThree.forEach((q) => {
     play(q.question, q.answer);
-});
+  });
+};
+
+  
 
 if(score > 14) {
   console.log(chalk.green(`\nCongratulations!! You have set a new high Score.`));
